@@ -1,0 +1,115 @@
+<div class="container-fluid mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <div class="card" style="background-color: #f1f1f1">
+          <h2
+            class="card-title mt-3 pt-4"
+            style="color: #05334a; padding-left: 40px"
+          >
+            <b>สมัครสมาชิก</b>
+          </h2>
+          <div class="card-body ms-4 me-4">
+            <form class="row g-3 needs-validation">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control rounded-pill shadow-sm bg-body rounded"
+                  name="firstname"
+                  id="enterfirstname"
+                  value=""
+                  required
+                  placeholder="ชื่อ"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control rounded-pill shadow-sm bg-body rounded"
+                  name="lastname"
+                  id="enterlastname"
+                  value=""
+                  required
+                  placeholder="นามสกุล"
+                />
+              </div>
+              <div class="input-group has-validation">
+                <input
+                  type="email"
+                  class="form-control rounded-pill shadow-sm bg-body rounded"
+                  name="email"
+                  id="enteremail"
+                  aria-describedby="inputGroupPrepend"
+                  required
+                  placeholder="Email"
+                />
+              </div>
+              <div class="input-group has-validation">
+                <input
+                  type="numbers"
+                  class="form-control rounded-pill"
+                  name="mobile"
+                  id="enterphone"
+                  placeholder="เบอร์โทรศัพท์ ( สำหรับยืนยัน OTP )"
+                  aria-describedby="inputGroupPrepend"
+                  required
+                />
+              </div>
+              <div >
+                <select
+                  class="form-select rounded-pill shadow-sm bg-body rounded"
+                  name="state"
+                  id="validationCustom04"
+                  required
+                >
+                  <option selected disabled value="">เพศ</option>
+                  <option value="chattisgarh">ชาย</option>
+                </select>
+              </div>
+              <div >
+                <select
+                  class="form-select rounded-pill shadow-sm bg-body rounded"
+                  name="state"
+                  id="validationCustom04"
+                  required
+                >
+                  <option selected disabled value="">จังหวัด</option>
+                  <option value="chattisgarh">ปทุมธานี</option>
+                </select>
+              </div>
+              <div>
+                <textarea class="form-control rounded-4 shadow-sm bg-body rounded" id="exampleFormControlTextarea1" rows="8" placeholder="ที่อยู่"></textarea>
+              </div>
+              <div class="col-12">
+                <div class="form-check" style="padding-left: 30%;">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck" style="color: #05334a;">
+                    I accept <span style="color: orange;">Terms of Use</span>
+                  </label>
+                </div>
+              </div>
+              <div class="text-center d-grid gap-2 col-8 mx-auto">
+                <button
+                  class="btn"
+                  title="Submit Your Form"
+                  aria-label="Left Align"
+                  name="reg_user"
+                  type="submit"
+                  style="background-color: #05334a; color: white;"
+                >
+                  <span class="fa fa-user-plus" aria-hidden="true"></span>
+                  <b>หน้าถัดไป</b>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
